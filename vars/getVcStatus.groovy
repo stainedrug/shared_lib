@@ -5,7 +5,7 @@ class Student {
    static void main(String[] args) {
       Student st = new Student();
       st.StudentID = 1;
-      st.StudentName = "Joe"     
+      st.StudentName = "Joe"
+      return st;	
    } 
-   return this
 }
