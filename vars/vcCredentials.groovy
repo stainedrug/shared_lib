@@ -1,7 +1,7 @@
 import groovy.transform.Field
 vars/vcCredentials.groovy
 
-@Field credentialsId = ecurity-API-user
+@Field credentialsId = 'ecurity-API-user'
 
 def credentialsId() {
     echo "ecurity-API-user"
