@@ -2,9 +2,9 @@ import groovy.transform.Field
 vars/vcCredentials.groovy
 
 //These work as properties and can be accessed via vcCredentials.propertyName
-@Field credentialsId = "'security-API-user'"
-@Field usernameVariable = "'security_API_user'"
-@Field passwordVariable = "'security_API_pass'"
+@Field credentialsId = "'security-API-user'";
+@Field usernameVariable = "'security_API_user'";
+@Field passwordVariable = "'security_API_pass'";
 
 
 //these dont work as properties
