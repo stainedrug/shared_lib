@@ -6,6 +6,6 @@ class Student {
       Student st = new Student();
       st.StudentID = 1;
       st.StudentName = "Joe"
-      return st;	
+      return st.StudentName;	
    } 
 }
