@@ -1,5 +1,4 @@
-#!/usr/bin/env groovy
+import groovy.transform.Field
+vars/vcUrl.groovy
 
-def call() {
-  echo 'https://analysiscenter.veracode.com/api/4.0/summaryreportpdf.do?build_id='
-}
+@Field vcUrl = "https://analysiscenter.veracode.com/api/4.0/summaryreportpdf.do?build_id="
