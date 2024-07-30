@@ -1,6 +1,6 @@
 import groovy.transform.Field
 vars/csCredentials.groovy
-
-@Field credentialsId = 'pdxc_checkmarx';
+//Fake stuff
+@Field credentialsId = 'rubbish';
 @Field usernameVariable = 'security_user';
 @Field passwordVariable = 'security_pass';
