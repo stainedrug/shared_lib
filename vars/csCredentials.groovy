@@ -1,5 +1,5 @@
 import groovy.transform.Field
-vars/vcCredentials.groovy
+vars/csCredentials.groovy
 
 @Field credentialsId = "'pdxc_checkmarx'";
 @Field usernameVariable = "'security_user'";
